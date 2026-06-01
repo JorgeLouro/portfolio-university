@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB Monitor</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 USB Monitor</h1>
+        <div id="status">Status: <span id="monitor-status" class="stopped">Parado</span></div>
+        <button id="start-monitor">▶ Iniciar Monitorização</button>
+        <button id="stop-monitor">⏹ Parar Monitorização</button>
+        <h2>📂 Dispositivos USB Conectados</h2>
+        <button id="refresh-devices">🔄 Atualizar Dispositivos</button>
+        <input type="text" id="filter-devices" placeholder="Filtrar dispositivos...">
+        <ul id="device-list"></ul>
+        <h2>✅ Whitelist de Dispositivos</h2>
+        <ul id="whitelist"></ul>
+        <input type="text" id="whitelist-input" placeholder="Adicionar VID/PID">
+        <button id="add-whitelist">➕ Adicionar</button>
+        <button id="clear-whitelist">🗑️ Limpar Whitelist</button>
+        <h2>📜 Logs de Eventos</h2>
+        <button id="download-logs">⬇ Baixar Logs</button>
+        <ul id="log-list"></ul>
+        <audio id="alert-sound" src="/static/alert.mp3" preload="auto"></audio>
+    </div>
+</body>
+</html>

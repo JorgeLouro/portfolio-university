@@ -36,5 +36,9 @@ WebGL, HTML / CSS, JavaScript.
 ### [Networks — Computer Networks](./networks)
 - **[wireshark](./networks/wireshark)** — Answers to Wireshark traffic-analysis questions
 
+### [SE — Software Engineering](./se-software-engineering)
+Python projects.
+- **[usb-monitor](./se-software-engineering/usb-monitor)** — USB device monitoring/blocking tool with whitelist and web interface (Flask)
+
 ### [FLA — Formal Languages and Automata](./fla-formal-languages-automata)
 - `automaton1.jff` — Automaton built in JFLAP

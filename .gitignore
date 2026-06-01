@@ -23,6 +23,14 @@ cmake-build-release/
 CMakeCache.txt
 CMakeFiles/
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+venv/
+.venv/
+
 # OS
 Thumbs.db
 desktop.ini

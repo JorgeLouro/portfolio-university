@@ -1,0 +1,26 @@
+{
+    "usb_monitor": {
+        "allowed_devices": [],
+        "settings": {
+            "email_notifications": true,
+            "email_recipient": "duartemartinsribeiro@gmail.com",
+            "check_interval": 5,
+            "log_level": "INFO"
+        }
+    },
+    "system_settings": {
+        "network": {
+            "proxy_enabled": false,
+            "proxy_server": "",
+            "proxy_port": 0
+        },
+        "security": {
+            "auto_block_unauthorized": true,
+            "block_system_devices": false
+        },
+        "ui": {
+            "theme": "dark",
+            "language": "pt-BR"
+        }
+    }
+}
