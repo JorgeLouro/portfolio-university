@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>2º Teste - Dia 27/05/2024</title>
+    <script type="text/javascript" src="MV.js"></script>
+    <script type="text/javascript" src="initShaders.js"></script>
+    <script type="text/javascript" src="webgl-utils.js"></script>
+    <script type="text/javascript" src="2_teste_Questao1.js"></script>
+</head>
+<body>
+    <div align="center">
+        <br>
+        <b>Jorge Louro</b>
+        <br><br>
+    </div>
+    <canvas id="canvas-webgl" width="500" height="500" style="border:10px solid #d3d3d3;">
+        O Navegador não suporta HTML5
+    </canvas>
+    
+    <script id="shader-vs" type="x-shader/x-vertex">
+        attribute vec2 aVertexPosition;
+        attribute vec4 aVertexColor;
+        varying vec4 vColor;
+        void main(void) {
+            gl_Position = vec4(aVertexPosition, 0.0, 1.0);
+            vColor = aVertexColor;
+        }
+    </script>
+  
+    <script id="shader-fs" type="x-shader/x-fragment">
+        precision mediump float;
+        varying vec4 vColor;
+        void main(void) {
+            gl_FragColor = vColor;
+        }
+    </script>
+</body>
+</html>

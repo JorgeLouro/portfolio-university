@@ -1,0 +1,13 @@
+Jorge Rafael Madeira Santos Louro - 11123622 - 23/01/24
+
+Pergunta 3-
+
+R.: Primeiramente deve-se abrir o Wireshark e escolher a interace da rede para a captura de pacotes.
+Depois começar a captura clicando no "Start". Após isso o Wireshark irá começar a captura dos pacotes 
+que passam pela interface que foi selecionada.
+Caso se queira uma pesquisa mais focada, é possivel a utilização de filtros para aparecerem pacotes mais relevantes.
+Depois da captura de dados suficientes, é necessário parar a captura clicando em "Stop".
+Depois deve-se utilizar filtros para a análise (ex. HTTP ou HTTPS).
+De seguida o processo é examinar o pacote individual para observar os detalhes, que se divide em 3 secções, tais como: 
+lista de pacotes, detalhes do pacote selecionado e dados brutos do pacote.
+Por fim é só salvar a captura e exportar os dados do relatório.

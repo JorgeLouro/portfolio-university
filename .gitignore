@@ -1,0 +1,34 @@
+# Visual Studio
+bin/
+obj/
+.vs/
+*.suo
+*.user
+*.pdb
+*.cache
+*.opensdf
+*.sdf
+*.ipch
+Debug/
+Release/
+
+# NuGet
+packages/
+*.nupkg
+
+# CMake / CLion
+cmake-build-debug/
+cmake-build-release/
+.idea/
+CMakeCache.txt
+CMakeFiles/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temp
+_staging/
+*.tmp
+*.bak

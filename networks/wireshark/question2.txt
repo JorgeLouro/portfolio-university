@@ -1,0 +1,8 @@
+Jorge Rafael Madeira Santos Louro - 11123622 - 23/01/24
+
+Pergunta 2-
+
+R.: O Wireshark é uma ferramenta de análise de rede que permite a captura e análise detalhada do tráfego de rede. 
+O Wireshark suporta vários protocolos, oferece uma interface gráfica com filtros avançados, 
+e é útil para diagnosticar problemas de rede e fins educacionais. 
+Disponível em múltiplos sistemas operacionais, é uma ferramenta vantajosa para profissionais de TI e segurança de rede.

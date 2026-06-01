@@ -1,0 +1,4 @@
+9E;20;Palácio;False
+10E;20;Palácio;True
+11E;40;Palácio;False
+1N;30;Ar Líquido;True

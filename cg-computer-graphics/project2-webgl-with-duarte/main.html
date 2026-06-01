@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Semáforo 3D com WebGL</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #controls { position: absolute; top: 10px; left: 10px; z-index: 10; }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <center><label for="phaseControl">Semáforo normal:</label></center>
+        <input type="range" id="phaseControl" min="0" max="2" step="1">
+        <br>
+    </div>
+    <canvas id="glCanvas" width="800" height="600"></canvas>
+    <script id="vertex-shader" type="x-shader/x-vertex">
+        attribute vec4 a_position;
+        attribute vec4 a_color;
+        uniform mat4 u_modelViewMatrix;
+        uniform mat4 u_projectionMatrix;
+        varying lowp vec4 vColor;
+        void main() {
+            gl_Position = u_projectionMatrix * u_modelViewMatrix * a_position;
+            vColor = a_color;
+        }
+    </script>
+    <script id="fragment-shader" type="x-shader/x-fragment">
+        varying lowp vec4 vColor;
+        void main() {
+            gl_FragColor = vColor;
+        }
+    </script>
+    <script type="text/javascript" src="js/webgl-utils.js"></script>
+    <script type="text/javascript" src="js/initShaders.js"></script>
+    <script type="text/javascript" src="js/MV.js"></script>
+    <script type="text/javascript" src="js/shapes.js"></script>
+    <h2><p>O semáforo está presente nos nossos dias, o que permite a segurança de todos (podiam era desaparecer da marginal...)</p></h2>
+</body

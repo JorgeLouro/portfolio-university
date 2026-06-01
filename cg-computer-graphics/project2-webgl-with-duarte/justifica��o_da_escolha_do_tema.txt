@@ -1,0 +1,10 @@
+Escolher um semáforo como tema para o projeto de WebGL foi uma ótima ideia porque é um 
+objeto comum que todos conhecem, tornando mais fácil entender como a tecnologia funciona 
+na prática. Usar diferentes formas geométricas, como a caixa retangular para o corpo do 
+semáforo, o cilindro para as luzes e a pirâmide para o topo, mostra como o WebGL pode criar
+vários tipos de formas e ainda deixa o projeto mais interessante visualmente. 
+Cada forma foi escolhida e colocada com cuidado para parecer um semáforo de verdade,
+criando uma representação 3D que é tanto realista quanto funcional.
+
+
+Ass: Duarte Ribeiro e Jorge Louro; 11063122 e 11123622 (respectivamente)
